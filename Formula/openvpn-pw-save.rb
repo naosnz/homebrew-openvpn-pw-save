@@ -1,9 +1,9 @@
 class OpenvpnPwSave < Formula
   desc "SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension"
   homepage "https://openvpn.net/community/"
-  url "https://swupdate.openvpn.org/community/releases/openvpn-2.6.6.tar.gz"
-  mirror "https://build.openvpn.net/downloads/releases/openvpn-2.6.6.tar.gz"
-  sha256 "3b074f392818b31aa529b84f76e8b5e4ad03fca764924f46d906bceaaf421034"
+  url "https://swupdate.openvpn.org/community/releases/openvpn-2.6.8.tar.gz"
+  mirror "https://build.openvpn.net/downloads/releases/openvpn-2.6.8.tar.gz"
+  sha256 "5ede1565c8a6d880100f7f235317a7ee9eea83d5052db5547f13a9e76af7805d"
   license "GPL-2.0-only" => { with: "openvpn-openssl-exception" }
 
   option "without-savedpasswords", "Build without support for saved passwords"
