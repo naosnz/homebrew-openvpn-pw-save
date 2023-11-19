@@ -20,3 +20,27 @@ they both provide the `openvpn` binary, and service.  The intention
 is that it is pretty much a drop in replacement (although obviously
 anything depending on the `openvpn` Formula having been installed
 will no longer work).
+
+## Developer notes
+
+To update this Formula to match the `homebrew-core` `openvpn` port version
+use:
+
+`brew cat openvpn | egrep -A 2 'url.*releases'`
+
+to extract out the updated URL/mirror/sha256 information, which can then
+be inserted into this Formula and used as is (providing there is not a
+large change which requires new dependencies).
+
+Within `vi` this can be directly substituted with:
+
+    1G
+    /url
+    :.,+2!brew cat openvpn | egrep -A 2 'url.*releases'
+
+and it should be ready to upgrade with:
+
+    brew upgrade openvpn-pw-save
+
+(Since there are no pre compiled binary "bottles" it should automatically
+build the upgrade from source.)
