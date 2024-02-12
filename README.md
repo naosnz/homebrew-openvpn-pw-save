@@ -44,3 +44,12 @@ and it should be ready to upgrade with:
 
 (Since there are no pre compiled binary "bottles" it should automatically
 build the upgrade from source.)
+
+## License
+
+Since this formula is a minor variation of the [HomeBrew core OpenVPN
+formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/o/openvpn.rb),
+it is covered by the same [BSD 2-Clause
+License](https://github.com/Homebrew/homebrew-core/blob/master/LICENSE.txt)
+as the HomeBrew core Formulas.  A copy of the BSD 2-Clause license can be
+found in [LICENSE.txt](LICENSE.txt).

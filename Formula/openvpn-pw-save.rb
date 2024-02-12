@@ -1,3 +1,15 @@
+# This is a minor variation on the homebrew-core/o/openvpn.rb Formula:
+#
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/o/openvpn.rb
+#
+# available under the same license (BSD-2-Clause):
+#
+# https://github.com/Homebrew/homebrew-core/blob/master/LICENSE.txt
+#
+# SPDX-License-Identifier: BSD-2-Clause
+#
+# Updated by Ewen McNeill <ewen@naos.co.nz>, 2023-11-20
+#
 class OpenvpnPwSave < Formula
   desc "SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension"
   homepage "https://openvpn.net/community/"
